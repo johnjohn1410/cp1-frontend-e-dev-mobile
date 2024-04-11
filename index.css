@@ -1,3 +1,22 @@
-h1{
-    
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-primaria: #FFFFFF;
+    --cor-secundaria: #000000;
+}
+
+h1 {
+    font-family: 'Noto Sans';
+    font-size: 50px;
+    color: var(--cor-primaria);
+}
+
+h2 {
+    font-family: 'Noto Sans';
+    font-size: 35px;
+    color: var(--cor-secundaria);
+}
+
+.menu {
+    display: flex;
 }
