@@ -47,14 +47,14 @@ header{
 }
 
 header li{
-    color: #FFFFFF;
+    color: var(--cor-primaria);
 }
 .menu {
     display: flex;
 }
 
 button{
-    color:white;
+    color: var(--cor-primaria);
     background-color: rgb(190, 41, 190) ;
 
 }
